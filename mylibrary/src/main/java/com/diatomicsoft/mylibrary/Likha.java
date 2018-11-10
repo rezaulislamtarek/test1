@@ -7,4 +7,8 @@ public class Likha {
     public static void likho(Context context, String s){
         Toast.makeText(context, ""+s, Toast.LENGTH_SHORT).show();
     }
+
+    public static void bd(Context context,String s){
+        Toast.makeText(context,s+"",Toast.LENGTH_LONG).show();
+    }
 }
