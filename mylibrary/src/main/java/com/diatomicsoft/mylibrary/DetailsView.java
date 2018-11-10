@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 public class DetailsView extends AppCompatActivity {
 
-    TextView tvName;
+    static TextView tvName;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,7 +17,7 @@ public class DetailsView extends AppCompatActivity {
 
     }
 
-    public void setName(Context context,String name) {
+    public static void setName(Context context,String name) {
         tvName.setText(""+name);
     }
 }
